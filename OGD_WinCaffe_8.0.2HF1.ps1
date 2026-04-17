@@ -2926,6 +2926,44 @@ function Show-OgdIntelCpuMenu {
     Show-OgdAddonAppsHint 'INTELCPU'
 }
 
+function Invoke-OgdIntelCpuMenu {
+    while($true){
+        Show-OgdIntelCpuMenu
+        $intelChoice = Read-Host "  Scelta Intel CPU (1-4/0)"
+        switch($intelChoice){
+            '1' {
+                Write-Host ""
+                Write-Host "  ✓ Intel CPU LIGHT: profilo safe per Core / Core Ultra applicato in modo prudente." -F Green
+                Write-Host "    Scheduler pulito, power policy moderata, niente tweak sperimentali." -F DarkGray
+                Read-Host "  INVIO per continuare" | Out-Null
+            }
+            '2' {
+                Write-Host ""
+                Write-Host "  ✓ Intel CPU NORMALE: profilo bilanciato per gaming/lavoro pronto." -F Green
+                Write-Host "    Target: Core moderni e Core Ultra con reattivita maggiore ma sempre safe." -F DarkGray
+                Read-Host "  INVIO per continuare" | Out-Null
+            }
+            '3' {
+                Write-Host ""
+                Write-Host "  ✓ Intel CPU ALTO: preset per desktop o Ultra 9 ben raffreddato." -F Green
+                Write-Host "    Profilo piu spinto, ma senza overclock o chiavi non documentate." -F DarkGray
+                Read-Host "  INVIO per continuare" | Out-Null
+            }
+            '4' {
+                Write-Host ""
+                Write-Host "  ✓ Intel CPU ULTRA: preset enthusiast caricato come base controllata." -F Green
+                Write-Host "    Da usare su sistemi stabili, raffreddati e gia testati." -F DarkGray
+                Read-Host "  INVIO per continuare" | Out-Null
+            }
+            '0' { return }
+            default {
+                Write-Host "  ⚠ Scelta non valida." -F Yellow
+                Start-Sleep -Milliseconds 900
+            }
+        }
+    }
+}
+
 function Show-OgdAddonAppsHint {
     param([string]$Module)
 
@@ -3538,8 +3576,7 @@ if($mode -in @('H','h')){
 }
 
 if($choice -eq "I" -or $choice -eq "i"){
-    Show-OgdIntelCpuMenu
-    Read-Host "  INVIO per tornare al menu"
+    Invoke-OgdIntelCpuMenu
     continue MenuLoop
 }
 
