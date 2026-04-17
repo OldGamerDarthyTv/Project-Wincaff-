@@ -208,7 +208,28 @@ Direzioni già emerse per le prossime build:
 - `OldGamerDarthy / #DarkPlayer84Tv Productions`
 - comunità OGD
 - `WinScript` (`flick9000 / Francesco`) per la base di parte del debloat/privacy
+- `Speedguide.net` per parte della base storica di tuning TCP/IP e networking
+- `Resplendence Software / LatencyMon` per diagnostica DPC e metodo di analisi
+- `Microsoft Docs / Microsoft Learn` per documentazione ufficiale su servizi, registro, DISM, PowerCfg, MMCSS e compatibilità Windows
+- community open-source e di troubleshooting Windows/gaming per test, confronti e fix pratici
+- vendor e strumenti hardware come `NVIDIA`, `AMD`, `Intel` per driver, pannelli di controllo e documentazione ufficiale
+
+### Ringraziamenti
+
+Grazie a tutti gli autori, maintainer, tester, sviluppatori open-source, community tecniche e utenti che hanno condiviso:
+
+- tweak pubblici
+- documentazione
+- casi reali
+- fix di compatibilità
+- strumenti di analisi
+
+Il progetto integra conoscenze pubblicamente disponibili, ma i crediti dei singoli tweak, metodi e strumenti restano ai rispettivi autori e progetti originali.
 
 ## Licenza
 
-Verificare il file `LICENSE` presente nel repo ufficiale per i termini aggiornati.
+Questo progetto è distribuito sotto licenza `GNU GPL v3.0`.
+
+Fare riferimento al file [LICENSE](C:\Users\Admin\Documents\New project\LICENSE) e al repo ufficiale per il testo completo e gli eventuali aggiornamenti:
+
+[https://github.com/OldGamerDarthyTv/Project-Wincaffe](https://github.com/OldGamerDarthyTv/Project-Wincaffe)

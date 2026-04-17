@@ -612,17 +612,25 @@ Write-Host "       Strumento analisi DPC latency (menu [L])" -F DarkGray
 Write-Host "       https://www.resplendence.com/latencymon" -F DarkGray
 Write-Host "     • WinScript (flick9000 / Francesco) — Tweaks privacy/telemetry" -F White
 Write-Host "       Base del debloat e di parte dei tweak privacy integrati nello script" -F DarkGray
+Write-Host "       https://github.com/flick9000/winscript" -F DarkGray
+Write-Host "     • Microsoft Docs / Microsoft Learn — Documentazione ufficiale" -F White
+Write-Host "       Registry, PowerCfg, servizi, MMCSS, rete, DISM e compatibilita Windows" -F DarkGray
+Write-Host "       https://learn.microsoft.com/windows/" -F DarkGray
+Write-Host "     • GitHub / community open-source di tweaking e troubleshooting Windows" -F White
+Write-Host "       Idee, confronti tecnici, fix e validazione pratica dei tweak safe" -F DarkGray
 Write-Host "     • Community gaming (Reddit r/GlobalOffensive," -F White
 Write-Host "       r/Warzone, r/pcgaming, XtremeSystems, HPET forums)" -F White
 Write-Host "       Tweaks CoD, DPC fix, hidden registry keys" -F DarkGray
-Write-Host "     • Microsoft Docs — Documentazione ufficiale" -F White
-Write-Host "       Registry keys, PowerCFG, MMCSS, DirectX API`n" -F DarkGray
+Write-Host "     • Autori driver e tool hardware (NVIDIA, AMD, Intel)" -F White
+Write-Host "       Per driver, pannelli di controllo, documentazione e best practice ufficiali`n" -F DarkGray
 
 Write-Host "  ℹ️  NOTA SUI CREDITI:" -F Yellow
 Write-Host "     Questo script non ruba né copia nulla." -F White
 Write-Host "     Raccoglie tweaks e ottimizzazioni pubblicamente" -F White
 Write-Host "     disponibili e li rende accessibili a tutti." -F White
 Write-Host "     I crediti restano ai rispettivi autori." -F White
+Write-Host "     Grazie a chi pubblica documentazione, fix, test e strumenti" -F White
+Write-Host "     che hanno reso possibile questo progetto community-driven." -F White
 Write-Host "     L'obiettivo è diffondere la conoscenza,`n" -F White
 Write-Host "     non appropriarsene.`n" -F DarkGray
 
@@ -639,6 +647,8 @@ Write-Host "  ✅ GARANZIE:" -F Green
 Write-Host "     • Codice testato su Windows 11 (build 22000+)" -F White
 Write-Host "     • Punto ripristino Windows creato prima di ogni modifica" -F White
 Write-Host "     • Ripristinabile da Impostazioni → Ripristino sistema`n" -F White
+Write-Host "  📄 LICENZA:" -F Cyan
+Write-Host "     GNU GPL v3.0 - vedere file LICENSE nel progetto/repo ufficiale`n" -F White
 
 Write-Host "  ════════════════════════════════════════════════════════`n" -F Cyan
 
