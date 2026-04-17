@@ -1,4 +1,4 @@
-# OGD WinCaffe 8.0.2
+# OGD WinCaffe 8.0.2HF1
 
 Strumento PowerShell per ottimizzazione, manutenzione e profili gaming su Windows, con menu guidati, hotfix, moduli hardware dedicati e aggiornamento automatico dal repo ufficiale.
 
@@ -7,7 +7,7 @@ Repo ufficiale:
 
 ## Stato attuale
 
-- Versione ramo corrente: `8.0.2`
+- Versione ramo corrente: `8.0.2HF1`
 - Runtime consigliato: `PowerShell 7.6.0+`
 - Compatibilità principale: `Windows 11`
 - Presenza di rami dedicati anche per target `Windows 10` e `Windows 11 24H2+`
